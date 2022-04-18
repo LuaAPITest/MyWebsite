@@ -39,19 +39,5 @@ p, h1, h2, h3, h4, h5, h6 {
 /* End of Reset */
 
 /* Utility classes */
-.container {
-  max-width: 90%;
-  margin: auto;
-  background-color: #0985;
-}
-
-.grid {
-  display: grid;
-  gap: 1rem;
-}
-
-.grid--3Col {
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 /* End of Utility classes */
