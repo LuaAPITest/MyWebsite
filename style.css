@@ -37,7 +37,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* End of Reset */
-
-/* Utility classes */
+/* Utility Classes */
+.screen-reader-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 /* End of Utility classes */
