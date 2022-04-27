@@ -56,7 +56,25 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.color1{
+  color: var(--color-black);
+}
+.color2{
+  color: var(--color-red);
+}
+.color3{
+  color: var(--color-gray);
+}
 .color4{
+  color: var(--color-white);
+}
+.color5{
+  color: var(--color-blue);
+}
+.color6{
+  color: var(--color-light-blue);
+}
+.color7{
   color: var(--color-green);
 }
 
