@@ -1,11 +1,11 @@
 :root {
-  --color-black: rgb(0, 0, 0);
-  --color-red: rgb(136, 8, 8);
-  --color-gray: rgb(23, 23, 23);
-  --color-white: rgb(252, 252, 255);
-  --color-blue: rgb(7, 56, 163);
-  --color-purple: rgb(77, 10, 255);
-  --color-green: rgb(7, 230, 170);
+  --color-black: 0, 0, 0;
+  --color-red: 136, 8, 8;
+  --color-gray: 23, 23, 23;
+  --color-white: 252, 252, 255;
+  --color-blue: 7, 56, 163;
+  --color-purple: 77, 10, 255;
+  --color-green: 7, 230, 170;
 }
 
 /* Reset */
@@ -57,32 +57,64 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.color1 {
-  color: var(--color-black);
+.f-color1 {
+  color: rgb(var(--color-black));
+}
+.bg-color1 {
+  background-color: rgb(var(--color-black));
 }
 
-.color2 {
-  color: var(--color-red);
+.f-color2 {
+  color: rgb(var(--color-red));
+}
+.bg-color2 {
+  background-color: rgb(var(--color-red));
 }
 
-.color3 {
-  color: var(--color-gray);
+.f-color3 {
+color: rgb(var(--color-gray));
 }
 
-.color4 {
-  color: var(--color-white);
+.bg-color3 {
+  background-color: rgb(var(--color-gray));
+}
+.f-color4 {
+  color: rgb(var(--color-white));
+}
+.bg-color4 {
+  background-color: rgb(var(--color-white));
 }
 
-.color5 {
-  color: var(--color-blue);
+.f-color5 {
+  color: rgb(var(--color-blue));
+}
+.bg-color5 {
+  background-color: rgb(var(--color-blue));
 }
 
-.color6 {
-  color: var(--color-purple);
+.f-color6 {
+  color: rgb(var(--color-purple));
+}
+.bg-color6 {
+  background-color: rgb(var(--color-purple));
 }
 
-.color7 {
-  color: var(--color-green);
+.f-color7 {
+  color: rgb(var(--color-green));
+}
+.bg-color7 {
+  background-color: rgb(var(--color-green));
 }
 
 /* End of Utility classes */
+
+
+/* block Components */
+
+.card {
+  background-color: rgb(var(--color-white));
+  /* border: 5px solid #000000; */
+  border-radius: 11px;
+margin: 5px;
+padding: 10px;
+}
