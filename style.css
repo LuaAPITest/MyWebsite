@@ -1,12 +1,13 @@
-:root{
+:root {
   --color-black: rgb(0, 0, 0);
-  --color-red: rgb(136,8,8);
-  --color-gray: rgb(23,23,23);
+  --color-red: rgb(136, 8, 8);
+  --color-gray: rgb(23, 23, 23);
   --color-white: rgb(252, 252, 255);
   --color-blue: rgb(7, 56, 163);
-  --color-light-blue: rgb( 66, 135, 245);
+  --color-light-blue: rgb(66, 135, 245);
   --color-green: rgb(7, 230, 170);
 }
+
 /* Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -56,27 +57,32 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.color1{
+.color1 {
   color: var(--color-black);
 }
-.color2{
+
+.color2 {
   color: var(--color-red);
 }
-.color3{
+
+.color3 {
   color: var(--color-gray);
 }
-.color4{
+
+.color4 {
   color: var(--color-white);
 }
-.color5{
+
+.color5 {
   color: var(--color-blue);
 }
-.color6{
+
+.color6 {
   color: var(--color-light-blue);
 }
-.color7{
+
+.color7 {
   color: var(--color-green);
 }
-
 
 /* End of Utility classes */
