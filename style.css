@@ -56,8 +56,8 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.color1{
-  color: --color1;
+.color-4{
+  color: --color4;
 }
 
 /* End of Utility classes */
