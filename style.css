@@ -1,3 +1,12 @@
+:root{
+  --color1: rgb(0, 0, 0);
+  --color2: rgb(136,8,8);
+  --color3: rgb(23,23,23);
+  --color4: rgb(252, 252, 255);
+  --color5: rgb(7, 56, 163);
+  --color6: rgb( 66, 135, 245);
+  --color7: rgb(7, 230, 170);
+}
 /* Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -45,6 +54,10 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+.color1{
+  color: --color1;
 }
 
 /* End of Utility classes */
