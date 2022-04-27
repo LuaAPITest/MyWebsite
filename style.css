@@ -60,6 +60,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .f-color1 {
   color: rgb(var(--color-black));
 }
+
 .bg-color1 {
   background-color: rgb(var(--color-black));
 }
@@ -67,20 +68,23 @@ p, h1, h2, h3, h4, h5, h6 {
 .f-color2 {
   color: rgb(var(--color-red));
 }
+
 .bg-color2 {
   background-color: rgb(var(--color-red));
 }
 
 .f-color3 {
-color: rgb(var(--color-gray));
+  color: rgb(var(--color-gray));
 }
 
 .bg-color3 {
   background-color: rgb(var(--color-gray));
 }
+
 .f-color4 {
   color: rgb(var(--color-white));
 }
+
 .bg-color4 {
   background-color: rgb(var(--color-white));
 }
@@ -88,6 +92,7 @@ color: rgb(var(--color-gray));
 .f-color5 {
   color: rgb(var(--color-blue));
 }
+
 .bg-color5 {
   background-color: rgb(var(--color-blue));
 }
@@ -95,6 +100,7 @@ color: rgb(var(--color-gray));
 .f-color6 {
   color: rgb(var(--color-purple));
 }
+
 .bg-color6 {
   background-color: rgb(var(--color-purple));
 }
@@ -102,19 +108,38 @@ color: rgb(var(--color-gray));
 .f-color7 {
   color: rgb(var(--color-green));
 }
+
 .bg-color7 {
   background-color: rgb(var(--color-green));
 }
 
+.grid {
+  display: grid;
+}
+
+.grid--RAM {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: space-around;
+}
+
 /* End of Utility classes */
-
-
 /* block Components */
+.navigation {
+  list-style-type: none;
+}
 
 .card {
   background-color: rgb(var(--color-white));
-  /* border: 5px solid #000000; */
   border-radius: 11px;
-margin: 5px;
-padding: 10px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.nav-card {
+  background-color: rgb(var(--color-white));
+  border-radius: 11px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 5px;
 }
