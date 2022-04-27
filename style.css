@@ -1,11 +1,11 @@
 :root {
-  --color-black: rgb(0, 0, 0);
-  --color-red: rgb(136, 8, 8);
-  --color-gray: rgb(23, 23, 23);
-  --color-white: rgb(252, 252, 255);
-  --color-blue: rgb(7, 56, 163);
-  --color-purple: rgb(77, 10, 255);
-  --color-green: rgb(7, 230, 170);
+  --color-black: 0, 0, 0;
+  --color-red: 136, 8, 8;
+  --color-gray: 23, 23, 23;
+  --color-white: 252, 252, 255;
+  --color-blue: 7, 56, 163;
+  --color-purple: 77, 10, 255;
+  --color-green: 7, 230, 170;
 }
 
 /* Reset */
@@ -57,32 +57,99 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.color1 {
-  color: var(--color-black);
+.f-color1 {
+  color: rgb(var(--color-black));
 }
 
-.color2 {
-  color: var(--color-red);
+.bg-color1 {
+  background-color: rgb(var(--color-black));
 }
 
-.color3 {
-  color: var(--color-gray);
+.f-color2 {
+  color: rgb(var(--color-red));
 }
 
-.color4 {
-  color: var(--color-white);
+.bg-color2 {
+  background-color: rgb(var(--color-red));
 }
 
-.color5 {
-  color: var(--color-blue);
+.f-color3 {
+  color: rgb(var(--color-gray));
 }
 
-.color6 {
-  color: var(--color-purple);
+.bg-color3 {
+  background-color: rgb(var(--color-gray));
 }
 
-.color7 {
-  color: var(--color-green);
+.f-color4 {
+  color: rgb(var(--color-white));
+}
+
+.bg-color4 {
+  background-color: rgb(var(--color-white));
+}
+
+.f-color5 {
+  color: rgb(var(--color-blue));
+}
+
+.bg-color5 {
+  background-color: rgb(var(--color-blue));
+}
+
+.f-color6 {
+  color: rgb(var(--color-purple));
+}
+
+.bg-color6 {
+  background-color: rgb(var(--color-purple));
+}
+
+.f-color7 {
+  color: rgb(var(--color-green));
+}
+
+.bg-color7 {
+  background-color: rgb(var(--color-green));
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--RAM {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: space-around;
 }
 
 /* End of Utility classes */
+/* block Components */
+.navigation {
+  list-style-type: none;
+}
+
+.card {
+  background-color: rgb(var(--color-white));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.nav-card {
+  background-color: rgb(var(--color-white));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.aside-card {
+  background-color: rgb(var(--color-red));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 5px;
+}
