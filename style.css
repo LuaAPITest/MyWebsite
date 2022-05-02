@@ -155,4 +155,25 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 5px;
 }
 
+.layout {
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 25%);
+}
+
 /* End of block Components */
+/* BlockElement */
+.layout--title {
+  grid-column: 1/ span 2;
+}
+
+.layout--header {
+  grid-column: 1/ span 2;
+}
+
+.layout--main {}
+
+.layout--aside {}
+
+.layout--footer {
+  grid-column: 1/ span 2;
+}
