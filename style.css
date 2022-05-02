@@ -130,6 +130,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .card {
   background-color: rgb(var(--color-white));
+  border: 5px solid #000000;
   border-radius: 11px;
   margin: 5px;
   margin-top: 50px;
@@ -138,6 +139,15 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .nav-card {
   background-color: rgb(var(--color-white));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.aside-card {
+  background-color: rgb(var(--color-red));
+  border: 5px solid #000000;
   border-radius: 11px;
   margin: 5px;
   margin-top: 50px;
