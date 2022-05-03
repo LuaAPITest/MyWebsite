@@ -46,7 +46,10 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* End of Reset */
+/* End Of Reset */
+
+
+
 /* Utility Classes */
 .screen-reader-only {
   position: absolute;
@@ -122,8 +125,11 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-items: space-around;
 }
 
-/* End of Utility classes */
-/* block Components */
+/* End Of Utility Classes */
+
+
+
+/* Block Components */
 .navigation {
   list-style-type: none;
 }
@@ -160,8 +166,11 @@ p, h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 1fr minmax(150px, 25%);
 }
 
-/* End of block Components */
-/* BlockElement */
+/* End Of Block Components */
+
+
+
+/* Block Element */
 .layout--title {
   grid-column: 1/ span 2;
 }
@@ -177,3 +186,4 @@ p, h1, h2, h3, h4, h5, h6 {
 .layout--footer {
   grid-column: 1/ span 2;
 }
+/* End Of Block Element */
