@@ -132,8 +132,9 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-white));
   border: 5px solid #000000;
   border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
   padding: 10px;
 }
 
@@ -141,8 +142,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-white));
   border: 5px solid #000000;
   border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
+  margin: 25px;
   padding: 5px;
 }
 
@@ -150,8 +150,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
+  margin: 25px;
   padding: 5px;
 }
 
