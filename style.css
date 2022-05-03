@@ -122,13 +122,6 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-items: space-around;
 }
 
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Playfair+Display&display=swap');
-
-body {
-  font-family: 'Libre Bodoni' 'Playfair Display', serif;
-}
-
 /* End of Utility classes */
 /* block Components */
 .navigation {
@@ -153,7 +146,7 @@ body {
   padding: 5px;
 }
 
-.aside-card1 {
+.aside-card {
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -162,29 +155,25 @@ body {
   padding: 5px;
 }
 
-.aside-card2 {
-  background-color: rgb(var(--color-green));
-  border: 5px solid #000000;
-  border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
-  padding: 5px;
+.layout {
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 25%);
 }
 
-.aside-card3 {
-  background-color: rgb(var(--color-blue));
-  border: 5px solid #000000;
-  border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
-  padding: 5px;
+/* End of block Components */
+/* BlockElement */
+.layout--title {
+  grid-column: 1/ span 2;
 }
 
-.aside-card4 {
-  background-color: rgb(var(--color-purple));
-  border: 5px solid #000000;
-  border-radius: 11px;
-  margin: 5px;
-  margin-top: 50px;
-  padding: 5px;
+.layout--header {
+  grid-column: 1/ span 2;
+}
+
+.layout--main {}
+
+.layout--aside {}
+
+.layout--footer {
+  grid-column: 1/ span 2;
 }
