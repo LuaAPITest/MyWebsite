@@ -131,7 +131,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End Of Utility Classes */
 /* Block Components */
-.navigation {
+.no-bullets {
   list-style-type: none;
 }
 
@@ -139,9 +139,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-white));
   border: 5px solid #000000;
   border-radius: 11px;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-bottom: 25px;
+  margin: 25px;
   padding: 10px;
 }
 
@@ -161,6 +159,11 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 5px;
 }
 
+.general-text {
+  margin-left: 25px;
+  padding: 5px;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 1fr minmax(150px, 25%);
@@ -176,9 +179,13 @@ p, h1, h2, h3, h4, h5, h6 {
   grid-column: 1/ span 2;
 }
 
-.layout--main {}
+.layout--main {
+  grid-column: 1/ 2;
+}
 
-.layout--aside {}
+.layout--aside {
+  grid-column: 2/ 3;
+}
 
 .layout--footer {
   grid-column: 1/ span 2;
@@ -186,18 +193,45 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End Of Block Element */
 /* Media Query  */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .layout {
     display: grid;
     grid-template-columns: 1fr;
   }
 
   .layout--title {
-    grid-column: 1;
+    grid-column: 1/2;
   }
 
   .layout--header {
-    grid-column: 1;
+    grid-column: 1/ 2;
+  }
+
+  .layout--main {
+    grid-column: 1/ 2;
+  }
+
+  .layout--aside {
+    grid-column: 1/2;
+  }
+
+  .layout--footer {
+    grid-column: 1/ 2;
+  }
+
+  .card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .aside-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .nav-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
