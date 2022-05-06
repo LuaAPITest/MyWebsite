@@ -57,13 +57,6 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-@media screen and (max-width: 500px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
 .f-color1 {
   color: rgb(var(--color-black));
 }
@@ -124,6 +117,30 @@ p, h1, h2, h3, h4, h5, h6 {
   display: grid;
 }
 
+/* Google Fonts Imports */
+/* h1 fonts */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Slab&display=swap');
+
+/* End Of Google Fonts Imports */
+/* General Text Styling */
+.general-text {
+  margin-left: 25px;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Radio Canada Roboto Slab', sans-serif serif;
+}
+
+.organize {
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+}
+
+/* End Of General Text Styling */
 .grid--RAM {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-items: space-around;
@@ -157,11 +174,6 @@ p, h1, h2, h3, h4, h5, h6 {
   border: 5px solid #000000;
   border-radius: 11px;
   margin: 25px;
-  padding: 5px;
-}
-
-.general-text {
-  margin-left: 25px;
   padding: 5px;
 }
 
