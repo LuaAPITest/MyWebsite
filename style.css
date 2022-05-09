@@ -121,23 +121,40 @@ p, h1, h2, h3, h4, h5, h6 {
 /* h1 fonts */
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Slab&display=swap');
 
-/* End Of Google Fonts Imports */
-/* General Text Styling */
-.general-text {
-  margin-left: 25px;
-  padding: 5px;
-}
-
-h1 {
-  font-size: 50px;
+body {
   font-family: 'Radio Canada Roboto Slab', sans-serif serif;
 }
 
-.organize {
-  padding-left: 2px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-bottom: 10px;
+/* End Of Google Fonts Imports */
+/* General Text Styling */
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.nav-page {
+  background-color: rgb(var(--color-black));
+  border: 3px solid #000000;
+  border-radius: 11px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.general-text {
+  margin-left: 25px;
+  padding: 5px;
 }
 
 /* End Of General Text Styling */
