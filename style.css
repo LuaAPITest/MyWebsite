@@ -6,6 +6,7 @@
   --color-blue: 7, 56, 163;
   --color-purple: 77, 10, 255;
   --color-green: 7, 230, 170;
+  --color-glow: 242, 242, 242, 0.1;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------Reset------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -113,6 +114,10 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-green));
 }
 
+.bg-glow {
+  color: rgba(var(--color-glow));
+}
+
 .grid {
   display: grid;
 }
@@ -168,6 +173,7 @@ p {
 .general-text {
   margin-left: 25px;
   padding: 5px;
+  text-shadow: 2px 2px 50px rgb(var(--color-gray));
 }
 
 a:link {
@@ -204,8 +210,8 @@ a {
 }
 
 .card {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-white));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -214,8 +220,8 @@ a {
 }
 
 .nav-card1 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -224,8 +230,8 @@ a {
 }
 
 .nav-card2 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -234,8 +240,8 @@ a {
 }
 
 .nav-card3 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -244,8 +250,8 @@ a {
 }
 
 .nav-card4 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -254,8 +260,8 @@ a {
 }
 
 .aside-card1 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -265,8 +271,8 @@ a {
 }
 
 .aside-card2 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -276,8 +282,8 @@ a {
 }
 
 .aside-card3 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -287,8 +293,8 @@ a {
 }
 
 .aside-card4 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
-  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
