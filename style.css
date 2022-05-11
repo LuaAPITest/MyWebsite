@@ -146,8 +146,13 @@ h3 {
   padding-bottom: 5px;
 }
 
+h4 {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
 p {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.8em;
 }
 
@@ -206,7 +211,7 @@ a {
   padding: 10px;
 }
 
-.nav-card {
+.nav-card1 {
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -214,8 +219,56 @@ a {
   padding: 5px;
 }
 
-.aside-card {
+.nav-card2 {
+  background-color: rgb(var(--color-blue));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.nav-card3 {
+  background-color: rgb(var(--color-green));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.nav-card4 {
+  background-color: rgb(var(--color-purple));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.aside-card1 {
   background-color: rgb(var(--color-red));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.aside-card2 {
+  background-color: rgb(var(--color-blue));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.aside-card3 {
+  background-color: rgb(var(--color-green));
+  border: 5px solid #000000;
+  border-radius: 11px;
+  margin: 25px;
+  padding: 5px;
+}
+
+.aside-card4 {
+  background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
   margin: 25px;
