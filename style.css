@@ -6,8 +6,7 @@
   --color-blue: 7, 56, 163;
   --color-purple: 77, 10, 255;
   --color-green: 7, 230, 170;
-  --color-glow1: 23, 23, 23, 1;
-  --color-glow2: 242, 242, 242, 0.1;
+  --color-glow: 242, 242, 242, 0.08;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------Reset------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -115,12 +114,8 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--color-green));
 }
 
-.f-glow {
-  color: rgba(var(--color-glow1));
-}
-
 .bg-glow {
-  color: rgba(var(--color-glow2));
+  color: rgba(var(--color-glow));
 }
 
 .grid {
@@ -168,6 +163,7 @@ p {
 
 .nav-page {
   background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
   border: 3px solid #000000;
   border-radius: 11px;
   margin: 10px;
@@ -175,10 +171,14 @@ p {
   font-size: 25px;
 }
 
+.nav-page:hover {
+  background-color: rgb(var(--color-white));
+  color: rgb(var(--color-black));
+}
+
 .general-text {
   margin-left: 25px;
   padding: 5px;
-  text-shadow: 2px 2px 200px rgb(var(--color-glow1));
 }
 
 a:link {
@@ -191,6 +191,7 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+  /* color: rgb(var(--color-black)); */
 }
 
 a:active {
@@ -203,7 +204,7 @@ a:active {
 }
 
 a {
-  color: rgb(var(--color-white));
+  color: inherit;
 }
 
 /* -----------------End Of General Text Styling----------------- */
@@ -215,8 +216,8 @@ a {
 }
 
 .card {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
+  box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-white));
   border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
@@ -225,8 +226,8 @@ a {
 }
 
 .nav-card1 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
+  box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -235,8 +236,8 @@ a {
 }
 
 .nav-card2 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -245,8 +246,8 @@ a {
 }
 
 .nav-card3 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -255,8 +256,8 @@ a {
 }
 
 .nav-card4 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -265,8 +266,8 @@ a {
 }
 
 .aside-card1 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
+  box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -276,8 +277,8 @@ a {
 }
 
 .aside-card2 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -287,8 +288,8 @@ a {
 }
 
 .aside-card3 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -298,8 +299,8 @@ a {
 }
 
 .aside-card4 {
-  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
-  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow2));
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
+  box-shadow: 5px 5px 50px 50px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
