@@ -178,7 +178,7 @@ p {
 .general-text {
   margin-left: 25px;
   padding: 5px;
-  text-shadow: 5px 5px 50px 50px rgb(var(--color-glow1));
+  text-shadow: 2px 2px 200px rgb(var(--color-glow1));
 }
 
 a:link {
