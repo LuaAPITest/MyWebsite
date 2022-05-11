@@ -204,6 +204,8 @@ a {
 }
 
 .card {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-white));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -212,6 +214,8 @@ a {
 }
 
 .nav-card1 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -220,6 +224,8 @@ a {
 }
 
 .nav-card2 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -228,6 +234,8 @@ a {
 }
 
 .nav-card3 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -236,6 +244,8 @@ a {
 }
 
 .nav-card4 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
@@ -244,33 +254,45 @@ a {
 }
 
 .aside-card1 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
+  text-align: center;
   margin: 25px;
   padding: 5px;
 }
 
 .aside-card2 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-blue));
   border: 5px solid #000000;
   border-radius: 11px;
+  text-align: center;
   margin: 25px;
   padding: 5px;
 }
 
 .aside-card3 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-green));
   border: 5px solid #000000;
   border-radius: 11px;
+  text-align: center;
   margin: 25px;
   padding: 5px;
 }
 
 .aside-card4 {
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
+  box-shadow: 5px 5px 50px 50px rgba(242, 242, 242, 0.1);
   background-color: rgb(var(--color-purple));
   border: 5px solid #000000;
   border-radius: 11px;
+  text-align: center;
   margin: 25px;
   padding: 5px;
 }
