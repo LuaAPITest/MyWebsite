@@ -203,7 +203,7 @@ a {
 .nav-page {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
-  border: 3px solid #000000;
+  border: 3px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 10px;
   text-align: center;
@@ -229,7 +229,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 25px;
   padding: 5px;
@@ -239,7 +239,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 25px;
   padding: 5px;
@@ -249,7 +249,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 25px;
   padding: 5px;
@@ -259,7 +259,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 25px;
   padding: 5px;
@@ -269,7 +269,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-red));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   text-align: center;
   margin: 25px;
@@ -280,7 +280,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-blue));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   text-align: center;
   margin: 25px;
@@ -291,7 +291,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-green));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   text-align: center;
   margin: 25px;
@@ -302,7 +302,7 @@ a {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   background-color: rgb(var(--color-purple));
-  border: 5px solid #000000;
+  border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   text-align: center;
   margin: 25px;
@@ -430,7 +430,7 @@ a {
   }
 
   a {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   #link {
