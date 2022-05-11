@@ -136,18 +136,23 @@ h1 {
 
 h2 {
   font-size: 40px;
+  line-height: 1.15em;
+  padding-bottom: 5px;
 }
 
 h3 {
   font-size: 35px;
+  line-height: 1.5em;
+  padding-bottom: 5px;
 }
 
 p {
   font-size: 20px;
+  line-height: 1.5em;
 }
 
 .nav-page {
-  background-color: rgb(var(--color-white));
+  background-color: rgb(var(--color-black));
   border: 3px solid #000000;
   border-radius: 11px;
   margin: 10px;
@@ -176,8 +181,13 @@ a:active {
   text-decoration: underline;
 }
 
-a {
+#link {
   color: rgb(var(--color-black));
+  font-weight: bold;
+}
+
+a {
+  color: rgb(var(--color-white));
 }
 
 /* -----------------End Of General Text Styling----------------- */
@@ -197,7 +207,7 @@ a {
 }
 
 .nav-card {
-  background-color: rgb(var(--color-white));
+  background-color: rgb(var(--color-red));
   border: 5px solid #000000;
   border-radius: 11px;
   margin: 25px;
