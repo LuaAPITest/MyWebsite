@@ -433,8 +433,12 @@ a {
     font-size: 15.75px;
   }
 
-  #link {
+  #link1 {
     font-size: 15.75px;
+  }
+
+  #link2 {
+    font-size: 26.25px;
   }
 
   address {
