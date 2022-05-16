@@ -183,11 +183,6 @@ a:active {
   text-decoration: underline;
 }
 
-#link {
-  color: rgb(var(--color-black));
-  font-weight: bold;
-}
-
 a {
   color: inherit;
 }
