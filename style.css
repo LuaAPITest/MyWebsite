@@ -191,9 +191,10 @@ a {
   color: inherit;
 }
 
-.youtubeVideo {
+iframe {
   width: 560px;
-  height: 315;
+  height: 315px;
+  border: 0px;
 }
 
 /* -----------------End Of General Text Styling----------------- */
@@ -411,6 +412,11 @@ a {
   .nav-card4 {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  iframe {
+    width: 280px;
+    height: 157.5px;
   }
 
   h1 {
