@@ -223,7 +223,10 @@ a {
   margin: 25px;
   padding: 10px;
 }
-
+.youtubeVideo {
+  width:300px;
+  height: auto;
+}
 .nav-card1 {
   -webkit-box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
   box-shadow: 5px 5px 25px 25px rgba(var(--color-glow));
