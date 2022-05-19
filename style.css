@@ -189,6 +189,7 @@ a:active {
 
 a {
   color: inherit;
+  font-weight: bold;
 }
 
 iframe {
@@ -318,7 +319,7 @@ iframe {
   padding: 5px;
 }
 
-.bigger-img-card {
+.img-card {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
   border: 3.5px solid rgb(var(--color-black));
@@ -327,7 +328,7 @@ iframe {
   margin: 10px 0px 10px 0px;
 }
 
-.img-card1 {
+.text-img-card {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
   border: 3.5px solid rgb(var(--color-black));
@@ -335,9 +336,11 @@ iframe {
   font-size: 25px;
   padding: 0px;
   margin: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
-.img-card2 {
+.link-img-card {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
   border: 3.5px solid rgb(var(--color-black));
@@ -349,6 +352,10 @@ iframe {
 .layout {
   display: grid;
   grid-template-columns: 1fr minmax(125px, 25%);
+}
+
+.row {
+  display: float;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------End Of Block Components------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -371,6 +378,12 @@ iframe {
 
 .layout--footer {
   grid-column: 1/ span 2;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------End Of Block Element------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
