@@ -198,7 +198,7 @@ iframe {
   border: 0px;
 }
 
-.img-customs {
+.custom-Padding {
   padding: 15px 10px 10px 15px;
 }
 
@@ -325,6 +325,7 @@ iframe {
   border: 3.5px solid rgb(var(--color-black));
   border-radius: 40px 40px 40px 40px;
   overflow: hidden;
+  padding: 5px;
   margin: 10px 0px 10px 0px;
 }
 
