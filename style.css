@@ -141,8 +141,7 @@ h1 {
 
 h2 {
   font-size: 45px;
-  line-height: 1.15em;
-  padding-bottom: 5px;
+  line-height: 1.15em
 }
 
 h3 {
@@ -232,7 +231,6 @@ iframe {
   border: 5px solid rgb(var(--color-black));
   border-radius: 11px;
   margin: 25px;
-  padding: 10px;
 }
 
 .nav-card1 {
@@ -338,7 +336,7 @@ iframe {
   padding: 0px;
   margin: 5px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .link-img-card {
@@ -348,6 +346,7 @@ iframe {
   border-radius: 40px 40px 40px 40px;
   font-size: 30px;
   padding: 5px 20px 5px 20px;
+  margin-bottom: 20px;
 }
 
 .layout {
