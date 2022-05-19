@@ -318,12 +318,32 @@ iframe {
   padding: 5px;
 }
 
-.img-card {
-  border: 5px solid #000000;
+.bigger-img-card {
+  background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
+  border: 3.5px solid rgb(var(--color-black));
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+  margin: 10px 0px 10px 0px;
+}
+
+.img-card1 {
+  background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
+  border: 3.5px solid rgb(var(--color-black));
   border-radius: 40px 40px 40px 40px;
   font-size: 25px;
   padding: 0px;
-  margin: 0px;
+  margin: 5px;
+}
+
+.img-card2 {
+  background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
+  border: 3.5px solid rgb(var(--color-black));
+  border-radius: 40px 40px 40px 40px;
+  font-size: 30px;
+  padding: 5px 20px 5px 20px;
 }
 
 .layout {
