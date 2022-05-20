@@ -328,17 +328,6 @@ iframe {
   width: 100%;
 }
 
-.img-card2 {
-  background-color: rgb(var(--color-black));
-  color: rgb(var(--color-white));
-  border: 3.5px solid rgb(var(--color-black));
-  border-radius: 40px 40px 40px 40px;
-  overflow: hidden;
-  padding: 5px;
-  margin: 10px 0px 10px 0px;
-  width: 100%;
-}
-
 .text-img-card {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
@@ -470,12 +459,17 @@ iframe {
     margin-bottom: 5px;
   }
 
-  .img-card2 {
-    overflow: visible;
-  }
-
   .link-img-card {
     font-size: 21.75px;
+  }
+
+  .img-card {
+    border: 3.5px solid rgb(var(--color-black));
+    border-radius: 40px 40px 40px 40px;
+    overflow: visible;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
   }
 
   iframe {
