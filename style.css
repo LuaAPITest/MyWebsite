@@ -123,7 +123,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .grid--RAM {
-  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 /* -----------------Google Fonts Imports----------------- */
