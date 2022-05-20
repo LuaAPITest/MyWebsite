@@ -123,7 +123,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .grid--RAM {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
 }
 
 /* -----------------Google Fonts Imports----------------- */
@@ -328,6 +328,17 @@ iframe {
   width: 100%;
 }
 
+.img-card2 {
+  background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
+  border: 3.5px solid rgb(var(--color-black));
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
 .text-img-card {
   background-color: rgb(var(--color-black));
   color: rgb(var(--color-white));
@@ -457,6 +468,14 @@ iframe {
   .nav-card4 {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .img-card2 {
+    overflow: visible;
+  }
+
+  .link-img-card {
+    font-size: 21.75px;
   }
 
   iframe {
